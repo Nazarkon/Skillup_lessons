@@ -1,0 +1,1 @@
+2) In this homework i created a simple table using td/tr.

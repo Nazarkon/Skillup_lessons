@@ -1,0 +1,49 @@
+body{
+    background: blue;
+}
+
+.d1{
+   background-color: red;
+   border-radius: 50px;
+   width:100px;
+   height:100px;
+   color:white;
+   border: 1px solid grey;
+   margin-top:10px;
+}
+.d2{
+   background-color: yellow;
+   border-radius: 50px;
+   width:100px;
+   height:100px;
+   color:white;
+   border: 1px solid grey;
+   margin-top:10px;
+   margin-bottom:10px;
+}
+.d3{
+  background-color: green;
+  border-radius: 50px;
+  width:100px;
+  height:100px;
+  color:white;
+  border: 1px solid grey;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+.d4{
+    background-color: white;
+    border-radius: 50px;
+    width:100px;
+    height:100px;
+    color:white;
+    border: 1px solid grey;
+    margin-top:10px;
+}
+.svitlo{
+    background: black;
+    width:100px;
+    padding: 10px;
+    margin:10px;
+}
+
