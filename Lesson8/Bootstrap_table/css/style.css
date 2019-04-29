@@ -1,21 +1,11 @@
-
-.boxbig{
+.main{
+    background-color: aqua;
     height: 300px;
-    width: 200px;
-    background:  #2b3e50;
-    /* border: 1px solid black; */
+    margin: 5px;
 }
+.second{
+    background-color: aqua;
+    height: 198px;
 
-.boxmini{
-    height: 200px;
-    width: 100px;
-    background: #2b3e50;
-    /* border: 1px solid gray; */
-}
-.container{
-    background-color: red;
-}
-p{  
-    color:white;
-    font-size: 40px;
+    margin:5px;
 }

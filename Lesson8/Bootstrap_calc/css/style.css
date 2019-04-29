@@ -19,6 +19,9 @@ span{
 .menu{
    background-color: #ececec;
 }
+.icons{
+    display: flex;
+}
 .icon{
     padding-right: 10px;
 }
