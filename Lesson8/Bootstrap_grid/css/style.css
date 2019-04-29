@@ -1,0 +1,18 @@
+.box4{
+    border: 2px solid gray;
+    height: 100px;
+}
+.box8{
+    border: 2px solid gray;
+    height: 100px;
+}
+.box3{
+    border: 2px solid gray;
+    border-bottom: 4px solid gray;
+    height: 100px;
+}
+.box2{
+    border: 2px solid gray;
+    border-bottom: 4px solid gray;
+    height: 100px;
+}

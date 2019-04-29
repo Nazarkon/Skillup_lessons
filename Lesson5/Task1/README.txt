@@ -1,0 +1,1 @@
+In this Task i created , four blocks which are adaptive to mobiles and tablets

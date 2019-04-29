@@ -1,0 +1,21 @@
+
+.boxbig{
+    height: 300px;
+    width: 200px;
+    background:  #2b3e50;
+    /* border: 1px solid black; */
+}
+
+.boxmini{
+    height: 200px;
+    width: 100px;
+    background: #2b3e50;
+    /* border: 1px solid gray; */
+}
+.container{
+    background-color: red;
+}
+p{  
+    color:white;
+    font-size: 40px;
+}

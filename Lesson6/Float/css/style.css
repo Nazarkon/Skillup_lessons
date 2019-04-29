@@ -1,0 +1,182 @@
+h1,h2,h3,h4,h5,h6,p,span,a{
+       margin:0;
+       padding: 0;
+       font-family: 'Heebo', sans-serif;
+}
+#align_elements{
+    width:100%;
+    max-width: 1200px;
+    margin-left:auto;
+    margin-right:auto;
+}
+#container{
+    float: left;
+    margin-left:380px;
+}
+header{
+    background-color:#383a2d;
+    width:100%;
+    height:60px;
+    max-height:65px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.logo img{
+    background-color: white;
+    border-radius: 50px;
+    float: left;
+    width:40px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.menu , a , li {
+    text-align: center;
+    color:white;
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    padding-right:10px;
+    margin-top: 2px;
+}
+a:hover{
+  border-bottom: 1px solid yellow;    
+}
+article{
+    width:650px;
+}
+.head_info{
+    float: left;
+    border-bottom: 1px solid gray;
+}
+.my_photo{
+   float: left;
+   padding-left: 45px;
+   margin-top:25px;
+   margin-bottom: 40px;
+   padding-bottom: 60px;
+   background-color: aqua;
+   width:150px;
+   height: 200px;
+}
+.short_info{
+    float: left;
+
+}
+.short_text{
+  padding-left: 20px;
+  padding-top:22px;
+}
+.short_txt{
+  padding-top:5px;
+  padding-left: 20px;
+  color:grey;
+}
+.about_text{
+   padding-top:5px;
+   padding-left: 20px;
+}
+.button1{
+    margin-top: 15px;
+  margin-left: 20px;
+  padding: 10px 20px 10px 20px;
+  border: 2px solid #ec492a;
+  font-weight: 800;
+  text-decoration: uppercase;
+  color: white;
+  background-color: #ec492a;
+  cursor: pointer;
+}
+.button1:hover{
+    border: 2px solid #ec492a;
+    color:#ec492a;
+    background-color: white;
+    text-decoration: uppercase;
+}
+.button2:hover{
+    border: 2px solid #ec492a;
+    color:#ec492a;
+    background-color: white;
+    text-decoration: uppercase;
+
+}
+.button2{
+    margin-top: 15px;
+    margin-left: 10px;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid #ec492a;
+    font-weight: 800;
+    text-decoration: uppercase;
+    color: white;
+    background-color: #ec492a;
+    cursor: pointer;
+}
+.contact{
+    padding-top: 35px;
+}
+.mail{
+    margin-top:20px;
+}
+.mail , .number , .website{
+    padding-top:5px;
+}
+.cont{
+    float: left;
+    padding-right: 5px;
+}
+.cont_info{
+    padding-left: 5px;
+    color:gray;
+}
+.skill_zg{
+    margin-top:50px;
+    margin-bottom:50px;
+}
+.languages{
+   padding-bottom:10px;
+}
+.languages_html , .languages_js{
+    padding-top:15px;
+}
+.experiencr{
+    width: 650px;
+}
+.education{
+    clear:left;
+    border-bottom: 1px solid grey;
+    width:600px;
+}
+.ed_chapt{
+    padding-top: 20px;
+    color:orangered;
+}
+.school{
+    float: left;
+    margin-right: 400px;
+}
+.school2{
+    float: left;
+    margin-right: 465px;
+}
+.date , .school{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.school2 , .date1{
+    padding-top:30px;
+    padding-bottom: 20px;
+}
+.tips{
+    color:grey;
+}
+.short_story{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.stars{
+    margin-top: 10px;
+    padding:0px;
+}
+aside{
+float: left;
+}
