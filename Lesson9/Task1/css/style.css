@@ -1,0 +1,25 @@
+.block{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:200px;
+    width:400px;
+    height: 200px;
+    background: linear-gradient(45deg,rgb(234, 223, 69), rgb(126, 14, 255));
+    position: relative;
+    transform-origin: top;
+    animation: rotate 3s infinite alternate ease;
+}
+.origin{
+    background: blue;
+  border: 2px solid black;
+  border-radius: 50%;
+  height: 10px;
+  margin-left: 200px;
+  margin-top:-7px;
+  position: absolute;
+  width: 10px;
+}
+@keyframes rotate {
+    from { transform: rotate(-45deg) ; }
+    to { transform: rotate(45deg); }
+  } 
