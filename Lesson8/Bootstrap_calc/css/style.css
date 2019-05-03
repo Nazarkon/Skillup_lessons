@@ -1,16 +1,9 @@
-.cont{
-    background-color: yellow;
-    height: 700px;
-}
 .box{
     height: 100px;
 }
 .head{
     background-color: #ececec;
     width:400px;
-}
-.icons{
-   margin-right: 20px;
 }
 span{
     font-size: 20px;
@@ -57,6 +50,7 @@ span{
     font-size: 20px;
     padding-top:10px;
     background: #ececec;
+    border: 0;
 }
 .numbers{
     padding-top: 10px;
