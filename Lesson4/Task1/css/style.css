@@ -1,0 +1,70 @@
+.container{
+    height: 410px;
+    position:absolute;
+}
+.bbox{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 200px;
+    height: 200px;
+    background-color: #2b3e50;
+    position: absolute;
+}
+.smbox{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+     width:150px;
+     height: 133px;
+     background-color: #2b3e50;
+     position: absolute;
+}
+span{
+    font-size: 40px;
+    color:white;
+    padding-right: 5px;
+}
+.bigbox2{
+   left:205px;
+}
+.bigbox3{
+    top:205px;
+ }
+ .bigbox4{
+    top:205px;
+    left:205px;
+ }
+.smallbox1{
+    left:410px;
+}
+.smallbox2{
+    top:136px;
+    left:410px;
+}
+.smallbox3{
+    top:272px;
+    left:410px;
+}
+.smallbox4{
+    left:565px;
+}
+.smallbox5{
+    top:136px;
+    left:565px;
+}
+.smallbox6{
+    top:272px;
+    left:565px;
+}
+.smallbox7{
+    left:720px;
+}
+.smallbox8{
+    top:136px;
+    left:720px;
+}
+.smallbox9{
+    top:272px;
+    left:720px;
+}
