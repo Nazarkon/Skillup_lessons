@@ -1,3 +1,6 @@
+.container-fluid{
+    padding:0px;
+}
 .h-but:hover{
     color:#10c9c3 !important;
 }
@@ -49,4 +52,18 @@
 .footer{
     margin-top:100px;
     
+}
+.module_map{
+    width: 1105px;
+    height: 470px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: gray;
+}
+iframe{
+    width:1105px;
+    height: 470px;
+}
+ul{
+    list-style-type: none;
 }
