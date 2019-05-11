@@ -1,10 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 .container-fluid{
     padding:0px;
+}
+.navbar_logo , .navbar_menu {
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 .h-but:hover{
     color:#10c9c3 !important;
 }
-.title{
+.m_contact_info_title{
     font-weight: 600 !important;
     margin-bottom:50px;
 }
@@ -37,33 +45,45 @@
 .j-back{
     background-color: white !important;
 }
-.contact_form{
+.module_contact_form{
     margin-left:150px;
     margin-top:30px;
 }
-.f-name,.f-mail,.f-title,.f-text_area{
+.m-contact_form_name , .m_contact_form_mail , .m_contact_form_title,.m_contact_form_text_area{
     margin-bottom: 30px;
 }
-.jump_set{
-    margin-left: 375px;
-    margin-right: 375px;
-    height: 471px;
-}
-.footer{
-    margin-top:100px;
-    
+.module_footer{
+    display: flex;
+    justify-content: center;
+    margin-top:100px; 
+    background-color:#141414;
 }
 .module_map{
-    width: 1105px;
-    height: 470px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: gray;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
 iframe{
-    width:1105px;
+    width:1100px;
     height: 470px;
 }
 ul{
     list-style-type: none;
+}
+.module_footer_content{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.m_footer_title{
+    font-weight: 600;
+}
+.m_footer_title , .m_footer_subtitle{
+    color:white;
+}
+.m_footer_contact_mail , .m_footer_contact_number{
+    margin:0;
+    color:white;
+}
+.m_footer_menu_header a , .m_footer_menu_news a , .m_footer_menu_social a{
+    color:white;
 }
