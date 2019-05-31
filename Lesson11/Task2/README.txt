@@ -1,1 +1,0 @@
-In this task i tested operator like If/else and ternary operator;
