@@ -1,56 +1,38 @@
-/*Verifying numbers*/ 
-var a = +prompt('Enter a', '');
+var a = 6,b = 3,c = a > b ? true : false;
+console.log(c);
 
-switch (a) {
-  case 0:
-    alert( 0 );
-    break;
+var a = 3, b = 3;
+if(a==b){
+    console.log(true)
+}
+    else{
+        console.log(false)
+    }
 
-  case 1:
-    alert( 'a' );
-    break;
-
-  case 2:
-    alert( 'b' );
-    break;
-  case 3:
-    alert( 'c' );
-    break;
-    default:
-    alert ( 'z' );
-    break;
+var a = 3 , b = 6; 
+if(a!=b){
+    console.log("good");
+}
+else{
+    console.log("bad"); 
 }
 
-/*Output square number*/ 
-for(var i=1; i<10;i++){
-  alert(Math.pow(i,2));
+var a = 1 , b="" ;
+if(a===b){
+   console.log("Same");
+} 
+else{
+    console.log("Not the same");
 }
 
-/*Output square number*/ 
-var i = 1;
-while(i<10){
-  alert(Math.pow(i,2));
-  i++;
-}
+var c = "B" > "A" ? true : false;
+console.log(c);
 
-/*Output square number*/ 
-var i=1;
-do{
-  i++;
-  alert(Math.pow(i,2));
-}
-while(i<10);
+var c = "a" > "Z" ? true : false;
+console.log(c);
 
-/*Function that compares two numbers and show bigger*/
-function showBiggerNumber (a,b){
-  if(a==b){
-    return 'rivno';
-  }
-  else if(a>b){
-    return a;
-  }
-  else{
-    return b;
-  }
-}
-alert(showBiggerNumber(4,4));
+var a = false , b = 0 , c=a>=b ? true : false;
+console.log(c);
+
+var c = ("2" === 2) ? "ok" : "not";
+console.log(c);
