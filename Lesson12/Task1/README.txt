@@ -1,1 +1,0 @@
-In this task was tested some arithmetic operation

@@ -1,18 +1,20 @@
-// function sampleFunction() {
-//     var elem = document.getElementById("scales");
+function sampleFunction() {
+    var elem = document.getElementById("scales");
   
-//     if (elem.hasAttribute("checked")) {
+    if (elem.hasAttribute("checked")) {
        
-//         elem.removeAttribute("checked")
-//     }
-//     else{
-//         elem.setAttribute("checkbox", "checked");
-//     }
-//   }
+        elem.removeAttribute("checked")
+    }
+    else{
+        elem.setAttribute("checkbox", "checked");
+    }
+  }
 
-//   console.log(sampleFunction());
+  console.log(sampleFunction());
 
 
+
+  
 if(elem.classList.contains('text'))
 {
     elem.classList.remove('text')
