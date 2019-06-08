@@ -1,0 +1,1 @@
+$( "li" ).eq( 2 ).css( "background-color", "red" );
