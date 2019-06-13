@@ -1,0 +1,60 @@
+p{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Noto Sans HK', sans-serif;
+    background-color: rgb(1,112,254);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text{
+    color:white;
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+
+}
+.container{
+    width: 305px;
+}
+.upper_container{
+    display: flex;
+    justify-content:  space-between;
+}
+.box1{
+    width: 200px;
+    height: 100px;
+    background-color:yellow;
+}
+.box2{
+    width:100px;
+    height: 100px;
+    background-color: rgb(4,33,63);
+}
+.lower_container{
+    display: flex;
+    justify-content: space-between;
+    margin-top:5px;
+}
+.lower_box1{
+    background-color: rgb(4,33,63);
+    width:100px;
+    height: 103px;
+}
+.aside_box2{
+    background-color: yellow;
+    width:200px;
+    height: 50px;
+    margin-bottom:3px;
+}
+.aside_box3{
+    background-color: red;
+    width:200px;
+    height: 50px;
+}
+
