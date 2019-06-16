@@ -148,6 +148,10 @@ a{
     margin-bottom: 10px;
     font-size: 15px;
 }
+.hide{
+   display: none;
+   margin-right: 30px;
+}
 /*--footer--*/
 .module_footer{
   display: flex;
@@ -160,3 +164,25 @@ a{
     height:60px;
 }
 /*----*/
+
+@media print{
+
+    .header,.module_sidebar,.l_article_title,.l_article_title2,.l_article_text{
+        display: none;
+    }
+    .module_footer{
+        display: none;
+    }
+    .l_article_button1, .l_article_button2{
+        display: none;
+    }
+    .my_photo{
+        margin-bottom: 10px;
+    }
+    .l_article{
+        border-bottom:none;
+    }
+    .hide{
+       display: block;
+    }
+}
