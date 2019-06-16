@@ -57,4 +57,21 @@ body{
     width:200px;
     height: 50px;
 }
+@media (max-width:1200px){
+  }
+  @media (max-width:1000px){
+    
+  }
+  @media (max-width:900px){
+    
+    }
+  .about_text_img_big{
+    margin-top: 15px;
+  }
+  @media (max-width:768px){
+    
+  }
+  @media (max-width:420px){
+  
+  }
 
