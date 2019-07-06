@@ -1,18 +1,18 @@
-// var arrayNew = new Array(5);
+var arrayNew = new Array(5);
 
-//  for(var i=0; i< 5 ; i++){
+ for(var i=0; i< 5 ; i++){
 
-//     arrayNew[i] = +prompt("Введіть імя");
-//     if(arrayNew[i]===null){
-//         alert("Відміна");
-//        break;
-//     }
-//     if(arrayNew[i]===""){
-//         alert('Введіть число');
-//         arrayNew[i] = prompt('Введіть імя'); 
-//     }
-//  }
-//  alert(arrayNew);
+    arrayNew[i] = +prompt("Введіть імя");
+    if(arrayNew[i]===null){
+        alert("Відміна");
+       break;
+    }
+    if(arrayNew[i]===""){
+        alert('Введіть число');
+        arrayNew[i] = prompt('Введіть імя'); 
+    }
+ }
+ alert(arrayNew);
 
 var matrix = [
 

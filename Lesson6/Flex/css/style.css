@@ -150,7 +150,7 @@ a{
 }
 .hide{
    display: none;
-   margin-right: 30px;
+   margin-right: 110px;
 }
 /*--footer--*/
 .module_footer{
@@ -165,7 +165,7 @@ a{
 }
 /*----*/
 
-@media print{
+@media screen{
 
     .header,.module_sidebar,.l_article_title,.l_article_title2,.l_article_text{
         display: none;
@@ -184,5 +184,13 @@ a{
     }
     .hide{
        display: block;
+       margin-left: 60px;
+      padding-bottom: 60px;
+    }
+    .m_sdb_title{
+        font-size:30px;
+    }
+    .mail,.number,.website{
+        font-size: 20px;
     }
 }
