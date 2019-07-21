@@ -1,0 +1,1 @@
+In this task , by me was created a simple piece of page using SCSS

@@ -1,0 +1,17 @@
+#contentContainer{
+    width: 550px;
+    height: 350px;
+    border: 15px #EDEDED solid;
+    overflow: hidden;
+    background-color: #F2F2F2;
+    cursor: pointer;
+}
+#thing{
+    width: 75px;
+    height: 75px;
+    background-color: rgb(255,207,0);
+    border-radius: 50%;
+    border: 15px rgb(255,199,0) solid;
+
+    transform: translate3d(50px , 50px , 0);
+}

@@ -1,0 +1,15 @@
+.block{
+    margin-right:auto;
+    margin-left: auto;
+    margin-top:200px;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    animation-name: rotate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes rotate{
+   from{transform: rotate(0deg)}
+   to{transform: rotate(360deg)}
+}

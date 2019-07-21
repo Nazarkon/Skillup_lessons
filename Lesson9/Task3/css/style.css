@@ -1,0 +1,37 @@
+.icons{
+    margin-left: auto;
+    margin-right: auto;
+    width:500px;
+}
+.fab{
+    font-size: 100px;
+    margin-left: 20px;
+}
+.facebook{
+    color:gray;
+}
+.facebook:hover{
+    color:blue;
+}
+.youtube{
+    color:gray;
+}
+.youtube:hover{
+    color:red;
+}
+.pinterest{
+    color:gray;
+}
+.pinterest:hover{
+    color:red;
+}
+.instagram{
+    color: gray;
+}
+.instagram:hover{
+    border-radius: 15px;
+    background: linear-gradient(45deg,rgb(246, 234, 69),rgb(238, 67, 67),rgb(130, 69, 211) );
+    color:white;
+}
+
+

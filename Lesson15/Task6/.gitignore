@@ -1,0 +1,7 @@
+*.log
+build/
+node_modules/
+.idea/
+.eslintrc.js
+package-lock.json
+package.json
